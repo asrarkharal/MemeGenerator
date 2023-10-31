@@ -13,8 +13,9 @@ const Memes = () => {
     const url = memeDataArray[randomNumber].url;
     setUrl(url);
 
-    setPrintMeme(`${nameText} 
-    ${memeText}`);
+    setPrintMeme(`${nameText} ${memeText}`);
+    setMemeText("");
+    setNameText("");
   }
 
   return (
