@@ -1,0 +1,44 @@
+main {
+  padding: 40px;
+}
+.header {
+  height: 70px;
+  background: linear-gradient(90deg, #056740 1.18%, #a5caa5 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+section {
+  margin-top: 20px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+section input {
+  text-indent: 8px;
+  background-color: rgb(232, 243, 233);
+  color: lightgray;
+  border-color: lightgreen;
+  border-radius: 3px;
+}
+section button {
+  grid-column: 1/-1;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #056740 1.18%, #768576 100%);
+  color: white;
+  font-size: 15px;
+  /* font-weight: bold; */
+  word-spacing: 2px;
+  cursor: pointer;
+}
+.main-meme-section img {
+  width: 70%;
+}
+.main-meme-section {
+  margin-top: 20px;
+  text-align: center;
+}
