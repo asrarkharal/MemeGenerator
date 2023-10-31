@@ -20,7 +20,9 @@ section {
 section input {
   text-indent: 8px;
   background-color: rgb(232, 243, 233);
-  color: lightgray;
+  color: rgb(75, 75, 75);
+  font-weight: bold;
+  letter-spacing: 1px;
   border-color: lightgreen;
   border-radius: 3px;
 }
@@ -34,11 +36,24 @@ section button {
   /* font-weight: bold; */
   word-spacing: 2px;
   cursor: pointer;
+  transition: 100ms ease-in-out;
 }
 .main-meme-section img {
-  width: 70%;
+  width: 60%;
 }
 .main-meme-section {
   margin-top: 20px;
   text-align: center;
+}
+section button:active {
+  transform: scale(0.98);
+}
+section input:-ms-keyboard-active {
+  transform: scale(0.98);
+}
+
+.meme-text {
+  color: white;
+  font-size: 40px;
+  background-color: lightcoral;
 }
